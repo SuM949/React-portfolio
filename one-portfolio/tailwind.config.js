@@ -4,8 +4,8 @@ module.exports = {
   ],
 ],
   theme: {
-    extend: {},
+    extend: ["plugin:react/jsx-runtime"]
   },
-  plugins: [],
+  plugins: ["react/jsx-runtime"],
 }
 
